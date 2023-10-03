@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+   background: rgb(63,94,251);
+   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70, 252, 70, 0.781) 69%);
+}   
+
+h2 span{
+    color: fuchsia;
+}
+
+.mapbox{
+    position: relative;
+    width: 500px;
+    height: 450px;
+
+}
+
+.mapbox iframe{
+    width: 100%;
+    height: 100%;
+}
+
